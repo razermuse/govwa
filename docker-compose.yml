@@ -1,7 +1,8 @@
 version: '3'
 services:
   web:
-    container_name: govwa_app:latest
+    image: govwa_app:latest
+    container_name: govwa_app
     build: .
     ports:
     - "8888:8888"
